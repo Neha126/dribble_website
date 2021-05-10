@@ -38,6 +38,7 @@ hr{
 .footer i{
   padding-left: 30px;
   margin:1px;
+  cursor:pointer;
 }
 .last{
   background: #efefef;
