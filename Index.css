@@ -1,0 +1,86 @@
+body,html{
+  overflow-x: hidden;
+}
+.title{
+  position: fixed;
+}
+.main{
+  padding-top: 20%;
+  margin-left: 60px;
+}
+hr{
+  color: #efefef;
+}
+.navbar-brand{
+  font-family: cursive;
+}
+.mid img{
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+.footer{
+  height: 80%;
+  background-color: #efefef;
+}
+.footer h2{
+  font-family: cursive;
+  color: #ff4c68;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+.footer p{
+  line-height: 1.5;
+  padding-left: 30px;
+}
+.footer i{
+  padding-left: 30px;
+  margin:1px;
+}
+.last{
+  background: #efefef;
+}
+.last p{
+  font-size: 12px;
+  margin: 10px;
+  position: relative;
+  right:120px;
+}
+.bottom{
+  text-align: center;
+  background: #efefef;
+  height: 100px;
+  border-top: 2px solid darkgray;
+}
+.bottom h5{
+  padding-top: 30px;
+}
+@media (max-width: 500px) {
+  .last p{
+    top: 10px;
+    right: -10px;
+  }
+  .two{
+    top: -235px;
+    right: -170px;
+  }
+  .three{
+    top:-130px;
+  }
+  .four{
+    right: -170px;
+    top: -390px;
+  }
+  .bottom{
+    margin-top: -150px;
+  }
+  .bottom h5{
+    padding-bottom: 15px;
+  }
+  .logo{
+    position:relative;
+    right: 45px;
+  }
+}
